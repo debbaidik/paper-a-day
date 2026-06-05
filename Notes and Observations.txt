@@ -1,0 +1,5 @@
+Day 1 (Backpropagation and LeNet)
+An observation I made: the original LeNet paper did not use Cross Entropy Loss, but used Discriminative MAP loss since initially we had used RBMs which rely on Euiclidean distances. However, I have used Cross Entropy Loss since it is more standard for classification problems.
+PyTorch implementation of LeNet-5 on MNIST is attached.
+
+Day 2 (AlexNet)
